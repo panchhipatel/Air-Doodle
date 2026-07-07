@@ -4,6 +4,9 @@ import av
 import cv2
 import numpy as np
 import mediapipe as mp
+st.write("MediaPipe version:", getattr(mp, "__version__", "Unknown"))
+st.write("Has solutions:", hasattr(mp, "solutions"))
+st.write("MediaPipe location:", mp.__file__)
 import time
 
 
